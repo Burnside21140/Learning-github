@@ -1,0 +1,39 @@
+/*grid*/
+body {
+    display: grid;
+    height: 300%;
+  }
+  
+.article-grid {
+    display: grid;
+    gap: 1.5rem;
+    margin: 1.5rem 0rem;
+    grid-auto-rows: 1fr;
+}
+
+.article-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.5rem;
+}
+
+/*article styling*/
+
+article {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px 0 rgba(20, 181, 235, 0.6);
+    margin: 1.5rem 1.5rem;
+}
+
+article img {
+    width: 50%;
+    height: 50%;
+}
+
+div {
+    width: 1fr;
+    gap: 1rem
+}
